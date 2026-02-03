@@ -1,1 +1,1 @@
-Hello from Addis Ababa! This is my first CI/CD file
+This is my first CI/CD concept using github action
