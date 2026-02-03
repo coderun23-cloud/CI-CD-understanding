@@ -1,0 +1,16 @@
+name: Hello World Action
+
+on: [push]  # This means: "Do this every time I push code"
+
+jobs:
+  my-first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout my code
+        uses: actions/checkout@v4
+
+      - name: Say Hello
+        run: echo "The CI/CD pipeline has started successfully!"
+
+      - name: Show file content
+        run: cat hello.txt
